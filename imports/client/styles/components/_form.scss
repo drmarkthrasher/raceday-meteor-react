@@ -1,0 +1,27 @@
+.form-section {
+    margin: 0 auto;
+    background: $medium-grey;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 80vw;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-item {
+    box-sizing: border-box;
+    flex: 1;
+    padding: $space;  
+}
+
+.form-section_title {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 80vw;
+    text-transform: uppercase;
+    
+}
